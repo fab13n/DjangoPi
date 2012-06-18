@@ -43,7 +43,6 @@ sudo apt-get install -y openssh-server
 sudo apt-get install -y --force-yes python-mysqldb libmysqlclient-dev 
 
 echo -e "Now we're going to install django and any other packages\n"
-sudo pip install django
 sudo pip install -r requirements.txt
 
 echo -e "\nFinally, lets make sure Django is installed properly - this will print the version number\n"
