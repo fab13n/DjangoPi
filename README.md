@@ -45,7 +45,7 @@ NOTE: this will take a long time if you're running it on a clean install, so go 
 Adding your other packages
 =
 
-You can add your own packages to the intallation by typing the package name at the bottom of the reuquirements.txt and running djangopi again.
+You can add your own packages to the intallation by typing the package name at the bottom of the requirements.txt and running djangopi again.
 
 Authors
 =
