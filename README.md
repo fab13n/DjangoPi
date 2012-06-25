@@ -24,12 +24,12 @@ NOTE: This has only been tested on the official debian flavour of linux for the 
 sudo bash
 ```
 
-This will give you administrative privelleges.
+This will give you administrative privileges.
 
  - Type:
 
 ```Python
-chmod 777 DjangoPi.sh
+chmod +x DjangoPi.sh
 ```
 
 to make the file executable
