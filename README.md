@@ -62,5 +62,6 @@ Paul Hallett www.phalt.co.uk
 Contributors
 =
 
-Ross Masters rossmasters.com
-Danilo Bargen ich-wars-nicht.ch
+Ross Masters http://www.rossmasters.com
+
+Danilo Bargen https://github.com/gwrtheyrn
