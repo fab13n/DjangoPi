@@ -36,7 +36,7 @@ Where path/to/package is replaced by the path. If you are unsure: ask for help o
  - Type:
 
 ```Python
-sudo chmod +x DjangoPi.sh
+sudo chmod +x djangopi.sh
 ```
 
 to make the file executable
