@@ -41,8 +41,7 @@ sudo apt-get install -y --force-yes python-mysqldb libmysqlclient-dev
 
 cd ..
 virtualenv --no-site-packages .
-mkdir mywebsite
-cd mywebsite
+cd Djangopi/
 . ../bin/activate
 
 echo -e "Now we're going to install django and any other packages\n"
