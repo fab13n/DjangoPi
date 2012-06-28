@@ -34,7 +34,7 @@ sudo apt-get install -y --force-yes mysql-client
 echo -e "\nInstalling some essential stuff...\n"
 echo -e "Installing python essentials\n"
 sudo apt-get install -y build-essential python-dev
-sudo apt-get instal -y python-virtualenv
+sudo apt-get install -y python-virtualenv
 sudo apt-get install -y python-pip
 sudo apt-get install -y openssh-server
 sudo apt-get install -y --force-yes python-mysqldb libmysqlclient-dev
