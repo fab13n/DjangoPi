@@ -33,7 +33,6 @@ sudo apt-get install -y --force-yes mysql-client
 
 echo -e "\nInstalling some essential stuff...\n"
 echo -e "Installing python essentials\n"
-sudo apt-get install -y build-essential python-dev
 sudo apt-get install -y python-virtualenv
 sudo apt-get install -y python-pip
 sudo apt-get install -y openssh-server
@@ -43,11 +42,13 @@ cd ..
 virtualenv --no-site-packages .
 
 pip install django-fab-deploy
+sudo apt-get install -y build-essential python-dev
+
 cd DjangoPi/
 . ../bin/activate
 
 echo -e "Now we're going to install django and any other packages\n"
-sudo pip install -r requirements.txt
+../bin/pip install -r requirements.txt
 
 echo -e "\nFinally, lets make sure Django is installed properly - this will print the version number if successful\n"
 python djangotest.py

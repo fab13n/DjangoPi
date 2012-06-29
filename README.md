@@ -44,7 +44,7 @@ to make the file executable
 - This installer only takes one line of code to set up:
 
 ```Python
-sudo ./djangopi.sh
+./djangopi.sh
 ```
 
 NOTE: this will take a long time if you're running it on a clean install, so go grab a cup of tea!

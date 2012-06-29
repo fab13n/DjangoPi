@@ -1,5 +1,4 @@
 Django==1.4
 gunicorn==0.14.2
 MySQL-python==1.2.3
-Jinja==2.6
 # Add your own pip packages below to add them to the installation
