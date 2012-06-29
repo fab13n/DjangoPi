@@ -41,6 +41,8 @@ sudo apt-get install -y --force-yes python-mysqldb libmysqlclient-dev
 
 cd ..
 virtualenv --no-site-packages .
+
+pip install django-fab-deploy
 cd DjangoPi/
 . ../bin/activate
 
