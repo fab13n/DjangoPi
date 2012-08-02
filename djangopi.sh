@@ -37,6 +37,7 @@ sudo apt-get install -y python-virtualenv
 sudo apt-get install -y python-pip
 sudo apt-get install -y openssh-server
 sudo apt-get install -y --force-yes python-mysqldb libmysqlclient-dev
+sudo apt-get install -y libjpeg-dev
 
 cd ..
 sudo virtualenv --no-site-packages .
