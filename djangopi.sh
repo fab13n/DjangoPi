@@ -39,16 +39,16 @@ sudo apt-get install -y openssh-server
 sudo apt-get install -y --force-yes python-mysqldb libmysqlclient-dev
 
 cd ..
-virtualenv --no-site-packages .
+sudo virtualenv --no-site-packages .
 
-pip install django-fab-deploy
+sudo pip install django-fab-deploy
 sudo apt-get install -y build-essential python-dev
 
 cd DjangoPi/
 . ../bin/activate
 
 echo -e "Now we're going to install django and any other packages\n"
-../bin/pip install -r requirements.txt
+sudo ../bin/pip install -r requirements.txt
 
 echo -e "\nFinally, lets make sure Django is installed properly - this will print the version number if successful\n"
 python djangotest.py
