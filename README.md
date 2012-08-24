@@ -22,7 +22,7 @@ This setup script has been updated to work on the Raspbian release
 To start:
 
 * Start your Raspberry Pi
-* Log
+* Log in as ROOT - this is important
 * Download this package
 * Navigate to this package folder, this can be done via:
 
