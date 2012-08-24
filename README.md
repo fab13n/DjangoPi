@@ -17,14 +17,14 @@ https://sponsorcraft.com/p/djangopi
 Usage
 =
 
-NOTE: This has only been tested on the official debian flavour of linux for the raspberry pi.
+This setup script has been updated to work on the Raspbian release
 
-To start make sure you have:
+To start:
 
-* Started up your raspberry pi
-* Logged in
-* Downloaded this package
-* Gone to this package folder, this can be done via:
+* Start your Raspberry Pi
+* Log
+* Download this package
+* Navigate to this package folder, this can be done via:
 
 
 ```Python
@@ -36,7 +36,7 @@ Where path/to/package is replaced by the path. If you are unsure: ask for help o
  - Type:
 
 ```Python
-sudo chmod +x djangopi.sh
+sudo chmod +x setup.sh
 ```
 
 to make the file executable
@@ -44,7 +44,7 @@ to make the file executable
 - This installer only takes one line of code to set up:
 
 ```Python
-./djangopi.sh
+./setup.sh
 ```
 
 NOTE: this will take a long time if you're running it on a clean install, so go grab a cup of tea!
@@ -52,7 +52,7 @@ NOTE: this will take a long time if you're running it on a clean install, so go 
 Adding your other packages
 =
 
-You can add your own packages to the installation by typing the package name at the bottom of the requirements.txt and running djangopi again.
+You can add your own packages to the installation by typing the package name at the bottom of the requirements.txt and running setup.sh again.
 
 
 Authors

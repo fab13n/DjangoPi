@@ -27,16 +27,14 @@
 echo -e "\nUpdating all existing packages...\n"
 sudo apt-get -y update
 
-echo -e "\nYou'll be asked to enter a password for the database, don't forget it! \n"
-sudo apt-get install -y --force-yes mysql-server 
-sudo apt-get install -y --force-yes mysql-client
-
 echo -e "\nInstalling some essential stuff...\n"
 echo -e "Installing python essentials\n"
 sudo apt-get install -y python-virtualenv
 sudo apt-get install -y python-pip
+
+echo -e "\nInstalling nginx server...\n"
 sudo apt-get install -y openssh-server
-sudo apt-get install -y --force-yes python-mysqldb libmysqlclient-dev
+sudo apt-get install -y nginx
 
 cd ..
 sudo virtualenv --no-site-packages .
