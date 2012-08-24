@@ -25,28 +25,28 @@
 # 
 
 echo -e "\nUpdating all existing packages...\n"
-sudo apt-get -y update
+apt-get -y update
 
 echo -e "\nInstalling some essential stuff...\n"
 echo -e "Installing python essentials\n"
-sudo apt-get install -y python-virtualenv
-sudo apt-get install -y python-pip
+apt-get install -y python-virtualenv
+apt-get install -y python-pip
 
 echo -e "\nInstalling nginx server...\n"
-sudo apt-get install -y openssh-server
-sudo apt-get install -y nginx
+apt-get install -y openssh-server
+apt-get install -y nginx
 
 cd ..
-sudo virtualenv --no-site-packages .
+virtualenv --no-site-packages .
 
-sudo pip install django-fab-deploy
-sudo apt-get install -y build-essential python-dev
+pip install django-fab-deploy
+apt-get install -y build-essential python-dev
 
 cd DjangoPi/
 . ../bin/activate
 
 echo -e "Now we're going to install django and any other packages\n"
-sudo ../bin/pip install -r requirements.txt
+../bin/pip install -r requirements.txt
 
 echo -e "\nFinally, lets make sure Django is installed properly - this will print the version number if successful\n"
 python djangotest.py
