@@ -1,5 +1,5 @@
 # Django and gunicorn are vital for webservers
-Django==1.4
+Django==1.4.1
 gunicorn==0.14.2
 South==0.7.4
 Pillow==1.7.6
