@@ -65,4 +65,4 @@ Contributors
 
 Ross Masters http://www.rossmasters.com
 
-Danilo Bargen https://github.com/gwrtheyrn
+Danilo Bargen https://github.com/dbrgn
