@@ -4,20 +4,11 @@ A one-click Django installer for Raspberry pi.
 
 ----------
 
-This package provides an easy way for beginners to install Django on the Raspberry pi.
+Install Django, Virtualenv and other Django-essentials on your Raspberry Pi.
 
-
-The Djangopi Project
-=
-This package is part of the larger #djangopi project - an educational website running on a Raspberry Pi.
-You can find out more and contribute at:
-
-https://sponsorcraft.com/p/djangopi
 
 Usage
 =
-
-NOTE: This has only been tested on the official debian flavour of linux for the raspberry pi.
 
 To start make sure you have:
 
@@ -27,7 +18,7 @@ To start make sure you have:
 * Gone to this package folder, this can be done via:
 
 
-```Python
+```bash
 cd ~/path/to/package
 ```
 
