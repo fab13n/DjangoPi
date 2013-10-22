@@ -50,7 +50,7 @@ You can add your own packages to the installation by typing the package name at 
 Authors
 =
 
-Paul Hallett www.djangopi.com/paul
+Paul Hallett http://phalt.co
 
 Contributors
 =
