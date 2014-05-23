@@ -37,12 +37,11 @@ echo -e "\nInstalling nginx server...\n"
 apt-get install -y openssh-server
 apt-get install -y nginx
 
-
 cd ..
 virtualenv --no-site-packages .
 
 pip install django-fab-deploy
-apt-get install -y build-essential python-dev
+apt-get install -y build-essential python-dev libmysqlclient-dev
 
 cd DjangoPi/
 . ../bin/activate
